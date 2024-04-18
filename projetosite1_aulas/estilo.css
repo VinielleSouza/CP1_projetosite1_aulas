@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{margin: 0; padding: 0;}
+
+body{
+	background-color: blue;
+}
+
+header, #img-topo{
+	width: 100%
+	background-color: grey;
+}
+
+.img-card{
+	width: 50%
+}
+
+nav{
+	background-color: grey;
+	text-align: center;
+	padding: 20px;
+}
+
+a{
+	font-family: 'Mulish', sans-serif;
+	text-decoration: none;
+}
+
+.a-menu{
+	color: grey;
+	margin-right: 20px
+	font-size: 1.4em;
+}
+
+main, #pagplanos, #pagdepo{
+	padding: 100px;
+}
+
+main{}
+
+h1 {
+	color: green;
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	font-size: 1.5em; 
+	font-weight: 200;
+
+}
+
+p{
+	color: gray;
+	text-align: justify;
+	font: 2em 'Mulish', sans-serif; 
+	font-weight: bold;
+}
