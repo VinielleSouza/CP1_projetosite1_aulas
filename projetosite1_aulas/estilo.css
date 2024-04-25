@@ -10,10 +10,6 @@ header, #img-topo{
 	background-color: grey;
 }
 
-.img-card{
-	width: 50%
-}
-
 nav{
 	background-color: grey;
 	text-align: center;
@@ -25,10 +21,14 @@ a{
 	text-decoration: none;
 }
 
-.a-menu{
+.a-menu:link, .a-menu:visited{
 	color: grey;
 	margin-right: 20px
 	font-size: 1.4em;
+}
+
+.a-menu:hover, .a-menu:active{
+	color: pink;
 }
 
 main, #pagplanos, #pagdepo{
@@ -43,7 +43,29 @@ h1 {
 	font-family: 'Mulish', sans-serif;
 	font-size: 1.5em; 
 	font-weight: 200;
+	margin-bottom: 1em;
+}
 
+h2 {
+	color: blue;
+	text-align: left;
+	font-family: 'Mulish', sans-serif;
+	font-size: 1.5em; 
+	font-weight: 200;
+	margin-bottom: 1em;
+}
+
+ul{
+	list-style-position: inside;
+	list-style-type: square;
+	margin: 60px 20px 15px 20px;
+}
+
+li{
+	font-family: 'Mulish', sans-serif;
+	font-size: 1.5em; 
+	font-weight: 200;
+	margin-bottom: 1em;
 }
 
 p{
@@ -51,4 +73,98 @@ p{
 	text-align: justify;
 	font: 2em 'Mulish', sans-serif; 
 	font-weight: bold;
+	line-height: 2em;
+	margin-bottom: 1.5em;
+
 }
+
+#pagplanos h2, #pagplanos p, #pagplanos li{
+	color: FFF;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card{
+	background-color: gray;
+	width: 24%;
+	border-radius: 40px;
+	box-shadow: 10px 10px 20px #AAA;
+	transition: 0.5s;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 20px #777;
+}
+
+.img-card{
+	width: 100%
+	border-radius: 40px 40px 0px 0px;
+}
+
+.txt-card{
+	padding: 30px;
+}
+
+h3{
+	color: green;
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	font-size: 1em; 
+	font-weight: 200;
+	margin-bottom: 0.5em;
+}
+
+.txt-card p{
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#pagdepo{
+
+}
+
+#pagtreinos{
+
+}
+
+.txt-treinos{
+	margin-right: 
+}
+
+.img-contato{
+	width: 30px
+}
+
+video{
+	width: 30%
+	margin: 10px 10px 10px 10px;
+}
+
+footer{
+	background-color: gray;
+	padding: 20px;
+}
+
+footer p, footer a{
+	text-align: center;
+	color: white;
+	font-size: 1.3em;
+}
+
+#bt-topo img{
+	width: 80px;
+}
+
+#bt-topo{
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+	
+}
+
+
+
+
